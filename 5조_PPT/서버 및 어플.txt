@@ -1,7 +1,0 @@
-어플로 네비 기능(tmap api)
-네비 설정시 정보를 서버로 전송
-서버에는 길찾기 및 장소, 검색 기록? 등을 저장
-turnType 매개변수만 hud에 전송
-
-
-어플(Android Studio), 서버(node.js)
