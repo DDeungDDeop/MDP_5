@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout                //constraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">                        //IntroActivity랑 연결
+
+    <ImageView                                              //이미지뷰 선언
+        android:id="@+id/imageView2"                        //아이디 만들어줌
+        android:layout_width="wrap_content"                 //폭
+        android:layout_height="wrap_content"                //높이
+        app:srcCompat="@drawable/intro"                     //drawable폴더의 intro.png 사용
+        tools:layout_editor_absoluteX="0dp"                  
+        tools:layout_editor_absoluteY="-16dp" />
+</android.support.constraint.ConstraintLayout>
